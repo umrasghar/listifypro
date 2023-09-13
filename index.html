@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listify Pro</title>
+    <meta name="description" content="Looking to buy or rent a house/plot? Explore our property listings for sale and rent in any City Siakot, Gujranwala, Multan, Lahore, Rawalpindi, Islamabad, Karachi, etc. Find your dream home with the best real estate deals, including houses, apartments, condos, and more. Search properties with affordable prices, top-notch amenities, and expert guidance. Start your journey to homeownership today with Listify Pro.">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="keywords" content="property, real estate, house selling, house renting, apartments, condos, homes for sale, property listings, buy house, rent house, real estate deals, pakistan real estate, Listify Pro">
+    <meta name="author" content="Umar Asghar">
+    <meta name="robots" content="index, follow">
+    <meta name="canonical" href="https://www.yourwebsite.com">
+    
+    <!-- Open Graph Meta Tags (for sharing on social media) -->
+    <meta property="og:title" content="Property Listing App">
+    <meta property="og:description" content="Discover the best property listings for buying and renting in Pakistan. Find your dream home today.">
+    <meta property="og:url" content="https://www.yourwebsite.com">
+    <meta property="og:image" content="https://www.yourwebsite.com/images/og-image.jpg">
+    <meta property="og:type" content="website">
+
+    
+    <!-- Twitter Card Meta Tags (for sharing on Twitter)
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:creator" content="@YourTwitterHandle">
+    <meta name="twitter:title" content="Property Listing App">
+    <meta name="twitter:description" content="Your brief application description goes here.">
+    <meta name="twitter:image" content="https://www.yourwebsite.com/images/twitter-image.jpg"> -->
+    
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+    
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="/css/style.css">
+    
+    <!-- JavaScript -->
+    <script src="/js/script.js" defer></script> <!-- Use 'defer' for better page loading performance -->
+    
+    <!-- Preconnect and DNS Prefetch (for improved performance) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    
+    <!-- CSS Critical Path (load styles needed for initial rendering) -->
+    <style>
+        /* Your critical CSS goes here */
+    </style>
+    
+    <!-- Google Fonts (consider using the 'rel' attribute to load asynchronously) -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    
+    <!-- JavaScript and CSS External Dependencies (CDNs) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          },
+          plugins: [
+    require('@tailwindcss/forms'),
+    // ...
+  ],
+        }
+      </script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+
+    
+    <!-- Sitemap (for search engines) -->
+    <!-- <link rel="sitemap" type="application/xml" href="sitemap.xml"> -->
+    
+    <!-- For Google Analytics  -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script> -->
+
+</head>
+<body>
+    <header>
+       <nav class="bg-white border-b">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+
+            <div class="relative flex flex-wrap h-16 items-center justify-between">
+
+                <div class="flex w-1/4  items-center justify-center sm:items-stretch sm:justify-start">
+                    <div class="flex flex-shrink-0 items-center">
+                        <a href="index.html"><img class="h-8 w-auto" src="/images/ListifyProLogoColored.png" alt="" srcset=""></a>
+                    </div>
+                </div>
+
+                <div class="flex flex-1 w-3/4 items-center  justify-center sm:items-center sm:justify-end max-sm:block">
+                
+                    <div class="flex-1 w-2/4 ">
+                        <form>   
+                            <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-gray-300">Search</label>
+                            <div class="relative">                
+                                <input type="search" id="default-search" class="block p-2.5  w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-gray-500 focus:outline-none focus:border-gray-500" placeholder="Search house, plot..." required>
+                                <button type="submit" class="text-white absolute right-0 bottom-0 top-0 bg-blue-950 hover:bg-blue-950 border-r border-t border-b border-gray-300 focus:outline-none focus:ring-blue-300 font-medium rounded-r-lg text-sm px-4 py-1"><span class="material-symbols-outlined">search</span></button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="  ml-4 ">
+                        <span class=" text-gray-500 font-bold align-middle text-xs">Want to sale or rent? </span>
+                        <button  data-drawer-target="default-sidebar" data-drawer-toggle="default-sidebar" aria-controls="default-sidebar" class="text-white bg-blue-950 font-bold  align-middle px-2 py-2 outline-none focus:outline-none ml-1 mr-1 mb-1 ease-linear transition-all duration-150 rounded-lg" type="button">
+                            <span class="material-symbols-outlined align-middle mr-1">domain_add</span> Add New
+                        </button>	
+                    </div>
+                </div>
+
+            </div>
+        </div>
+       </nav>          
+    </header>
+    <aside id="default-sidebar" class="fixed top-016 right-0 z-40 w-2/5 h-screen transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
+        
+        <div class="h-full px-3 py-4 overflow-y-auto bg-blue-950">
+            <div class="">
+                <span class="material-symbols-outlined hover:cursor-pointer text-white hover:text-gray-400">close</span>
+            </div>
+            <div class="my-4">
+                <h2 class="text-2xl font-bold text-white">Add New Property</h2>
+                <p class="text-sm text-gray-400">Fill the form below to add new property.</p>
+            </div>
+            <div>
+                
+                <form>
+                    <div class="mb-6">
+                    <label for="title" class="block mb-2 text-sm font-medium text-white">Title</label>
+                    <input type="text" id="title" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="10 Marla Plot ..." required>
+                    </div>
+                    <div class="mb-6">
+                    <label for="type" class="block mb-2 text-sm font-medium text-white">Property Type</label>
+                    <input type="text" id="type" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required>
+                    </div>
+                    <div class="max-w-xl mb-6">
+                        <label
+                            class="flex justify-center w-full h-32 px-4 transition bg-white border-2 border-gray-300 border-dashed rounded-md appearance-none cursor-pointer hover:border-gray-400 focus:outline-none">
+                            <span class="flex items-center space-x-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-600" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+                                </svg>
+                                <span class="font-medium text-gray-600">
+                                    Drop files to Attach, or
+                                    <span class="text-blue-600 underline">browse</span>
+                                </span>
+                            </span>
+                            <input type="file" name="file_upload" class="hidden">
+                        </label>
+                    </div>
+                    <div class="flex items-start mb-6">
+                        <div class="flex items-center h-5">
+                          <input id="terms" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300  dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required>
+                        </div>
+                        <label for="terms" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">I'm sure this listing is according to Listify Pro <a href="#" class="text-blue-600 hover:underline dark:text-blue-500">terms and conditions</a></label>
+                      </div>
+                    <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+                </form>
+  
+            </div>
+        </div>
+     </aside>
+</body>
+</html>
+
+
+
