@@ -46,7 +46,7 @@ Once the client is running, you can use Listify Pro to interact with the propert
 
 ## Customization
 
-If you want to customize the styling or make changes to the client code, you can do so by editing the HTML, Tailwind CSS classes, and JavaScript files located in the `client` directory.
+If you want to customize the styling or make changes to the client code, you can do so by editing the HTML, Tailwind CSS classes, and JavaScript files located in the `main` directory.
 
 ## License
 
